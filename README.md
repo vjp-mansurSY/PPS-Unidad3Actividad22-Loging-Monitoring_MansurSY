@@ -267,8 +267,6 @@ sudo apt update
 sudo apt install fail2ban -y
 ```
 
-![image](https://github.com/user-attachments/assets/da72e1d8-ca0c-4af1-9ec9-e59379aabc00)
-
 
 **2. Configurar Fail2Ban para Apache**
 
