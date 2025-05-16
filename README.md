@@ -295,6 +295,9 @@ bantime = 3600
 ```
 ![](images/lm8.png)
 
+![image](https://github.com/user-attachments/assets/b43878b8-a94b-4cae-b008-e3bcb16b193d)
+
+
 Esto bloqueará una IP por 1 hora si realiza más de 5 intentos fallidos.
 
 
@@ -305,6 +308,7 @@ Esto bloqueará una IP por 1 hora si realiza más de 5 intentos fallidos.
 sudo service fail2ban restart
 sudo systemctl enable fail2ban
 ```
+
 
 
 ### Configuración de Fail2Ban en un entorno LAMP con Docker
