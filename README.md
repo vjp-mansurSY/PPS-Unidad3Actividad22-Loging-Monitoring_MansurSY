@@ -445,6 +445,9 @@ bantime = 600
 findtime = 600
 ```
 
+![image](https://github.com/user-attachments/assets/9c6362ad-0d65-4800-92a4-85dfec8388f5)
+
+
 -  `config/fail2ban/filter.d/apache-auth.conf`
 
 ```ini
@@ -452,6 +455,9 @@ findtime = 600
 failregex = ^%(_apache_error_client)s user .* authentication failure.*$
 ignoreregex =
 ```
+
+![image](https://github.com/user-attachments/assets/44c42b0e-f3e3-41a5-bc4c-e831971bb8d7)
+
 
 > Puedes personalizar más filtros desde la documentación de Fail2Ban o adaptar los ya existentes en `/etc/fail2ban/filter.d/`.
 
@@ -495,6 +501,8 @@ sudo fail2ban-client status apache-auth
 ```
 
 
+
+
 **Ver reglas de iptables creadas por Fail2Ban**
 
 ```bash
@@ -518,6 +526,16 @@ sudo fail2ban-client set apache-auth banip <IP>
 **Ejercicio**
 
 Probar a bloquear una IP (9.9.9.9), revisar las reglas iptables creadas, así como las IP bloqueadas y desbloquear la IP
+
+![image](https://github.com/user-attachments/assets/09da4c56-48d2-4951-83d7-0f5de19ac242)
+
+![image](https://github.com/user-attachments/assets/67b1cb93-1ffa-4229-b6c3-82c461e02a31)
+
+![image](https://github.com/user-attachments/assets/da855257-a67b-4ca2-9f45-630b8b2cc6c4)
+
+![image](https://github.com/user-attachments/assets/4869d1c9-8814-4d79-a5cb-cde1b6b1daf6)
+
+![image](https://github.com/user-attachments/assets/d0a51abe-beae-4d02-8880-0da0ae899a58)
 
 
 ---
