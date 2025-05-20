@@ -582,6 +582,9 @@ sudo apt-get install apt-transport-https
 echo "deb [signed-by=/usr/share/keyrings/elasticsearch-keyring.gpg] https://artifacts.elastic.co/packages/9.x/apt stable main" | sudo tee /etc/apt/sources.list.d/elastic-9.x.list
 ```
 
+![image](https://github.com/user-attachments/assets/3ee5f043-1cf0-4c11-93a0-68ca0d943940)
+
+
 Nota: Si se desea una versión específica, cambiar 9.x por la versión deseada.
 
 
@@ -591,6 +594,9 @@ Nota: Si se desea una versión específica, cambiar 9.x por la versión deseada.
 sudo apt update
 sudo apt install elasticsearch logstash kibana -y
 ```
+
+![image](https://github.com/user-attachments/assets/3baef110-b755-403c-bacc-19b51e703aca)
+
 
 **3. Iniciar y habilitar los servicios**
 
